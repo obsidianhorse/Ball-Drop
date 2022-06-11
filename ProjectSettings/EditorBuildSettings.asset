@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Interfaces/Menu.unity
+    guid: 64b03d10969428247801066218689fc3
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level1.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level2.unity
+    guid: 00eba810ba247224e8d47db42b7f0473
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level3.unity
+    guid: 063b0091d87ebfe4c8a162e4338b951c
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level4.unity
+    guid: bfcf20d510d0a774d95bb275ad174ed9
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level5.unity
+    guid: 55258cf47505e5842b004f92dbd5f03f
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level6.unity
+    guid: 89ac4b36e7bb67d4ba455eb789fbe8ed
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level7.unity
+    guid: 5b595b8bfbdebae4fb94d130de10654c
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level8.unity
+    guid: ea7827e1b6fda794989eac4aa1b34c7a
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level9.unity
+    guid: e5b42a1214fa75043b295f7ddf72aace
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level10.unity
+    guid: 706664fc9517c8b4593fbae458a60876
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level11.unity
+    guid: f6342070449ab444d8d137ae087bf378
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level12.unity
+    guid: d230a12a50c54084fbc9e9fb9442c982
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level13.unity
+    guid: 46cb442e4dbe55c458316bb69c6132c3
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level14.unity
+    guid: 2ed0ae47be54a5344bacc05248b71df8
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level15.unity
+    guid: dba2247b6b4a49a41be0f46017e899b6
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level16.unity
+    guid: fa477aa8afbb9a94a9a9e89e5aa9e7b4
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level17.unity
+    guid: e5ed1bf3264aa01488751cf34bdb139f
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level18.unity
+    guid: e2a456f1b9577054fae68ed0e2d84ee9
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level19.unity
+    guid: 34cd58cd02ba37d4cb910ad5321251b3
+  - enabled: 1
+    path: Assets/Levels/Stage 1/Level20.unity
+    guid: 57cb801e492ae6348bb9e79b2ca5d43d
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_1.unity
+    guid: 07a494389f4edc8428083776a05b6c40
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_2.unity
+    guid: 635e108471950ee439807e920bf625e6
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_3.unity
+    guid: 471c0059b5628bf4b9b220f202a19c65
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_4.unity
+    guid: ef52622e284fea143acb2cbea56fda7d
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_5.unity
+    guid: 42b700a4d9f2c474793c8f2408b22043
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_6.unity
+    guid: 30e2ecbb79cd80243a0e388968a54356
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_7.unity
+    guid: 0d18aae7f5b45c440bd47f5841cdf4d3
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_8.unity
+    guid: 9c519ec6913ca8444a817eb9c3ebd57b
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_9.unity
+    guid: 66d555726d2522a4ab9312bb74709895
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_10.unity
+    guid: 64a96a5e9297c47418b358cb0e4c287f
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_11.unity
+    guid: 93175949fdc1b764c8a5b14e267df519
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_12.unity
+    guid: 9973bff999b6719419b0dd90ff4ee6f1
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_13.unity
+    guid: 7fa4d17d124005c4182899cdf7fa1b82
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_14.unity
+    guid: 4f2e60b5de21336488350d1c53cdeb5d
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_15.unity
+    guid: 26fdbf14873f7ef468dd6b0eff28e184
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_16.unity
+    guid: 589c5c573b81b7d4fa67b3f98dbf49d7
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_17.unity
+    guid: 7dbf93fcaab4af9489786923563f6a32
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_18.unity
+    guid: 1f51bd6d53cf49e49af9fce032dedc1f
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_19.unity
+    guid: e49f313ec2a2441438acb8eb54867595
+  - enabled: 1
+    path: Assets/Levels/Stage 2/Level2_20.unity
+    guid: a329b430c22a6f94b91a32ea856e6da3
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_1.unity
+    guid: c290cc99f80907046b51435d0e54d42b
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_3.unity
+    guid: 2435e1995bb3a6b49b6cef841c23be7e
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_2.unity
+    guid: 1a9c895b69685b4479e2a48723f3615d
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_4.unity
+    guid: bf1f7d96860bfd34e975bcbc79c7d682
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_5.unity
+    guid: 536a31a245d54f54192b8d336636760f
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_6.unity
+    guid: 40ea8327c48e25642b1539c66200bc71
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_7.unity
+    guid: ce6c4d81bbc3b154ba28a155896138e3
+  - enabled: 1
+    path: Assets/Levels/Stage 3/Level3_8.unity
+    guid: 95e8f4faa32e24f4e831351a0a9ff625
+  m_configObjects: {}
