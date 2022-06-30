@@ -74,22 +74,18 @@ public class BallJump : MonoBehaviour
     {
         bool isReadyToJump = Input.touches.Length > 0 && JumpManager.Grounded == true && BallManager.Managed;
 
+
         if (isReadyToJump)
         {
-           
             Touch touch = Input.GetTouch(0);
 
-            if (touch.phase == TouchPhase.Began)
+            bool isTouchYLessThanPauseButton = touch.position.y < (Screen.height * 0.9f);
+            
+            if (touch.phase == TouchPhase.Began && isTouchYLessThanPauseButton)
             {
                 Jump();
             }
         }
-
-        if (Input.GetMouseButtonDown(0) && JumpManager.Grounded == true && BallManager.Managed)
-        {
-            Jump();
-        }
-            
     }
     private void CheckIsOnStickPlatform()
     {

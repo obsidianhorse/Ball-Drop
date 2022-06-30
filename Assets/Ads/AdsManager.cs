@@ -7,7 +7,8 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener
 
 
     private string _gameId = "4746695";
-
+    private static readonly string _winCounter = "WinAdsCounter";
+    private static readonly string _loseCounter = "LoseAdsCounter";
 
 
     private void Start()
@@ -16,15 +17,29 @@ public class AdsManager : MonoBehaviour, IUnityAdsInitializationListener
         Advertisement.Initialize(_gameId);
     }
 
-    public static void ShowInterstitialAd(int probability)
+    public static void ShowInterstitialWinAd()
     {
-        int number = Random.RandomRange(0, probability);
+        PlayerPrefs.SetInt(_winCounter, PlayerPrefs.GetInt(_winCounter) + 1);
+        int counter = PlayerPrefs.GetInt(_winCounter);
 
-        if (number == 0)
+        if (counter == 2)
         {
             _interstitialAd.ShowAd();
+            PlayerPrefs.SetInt(_winCounter, 0);
         }
     }
+    public static void ShowInterstitialLoseAd()
+    {
+        PlayerPrefs.SetInt(_loseCounter, PlayerPrefs.GetInt(_loseCounter) + 1);
+        int counter = PlayerPrefs.GetInt(_loseCounter);
+
+        if (counter == 7)
+        {
+            _interstitialAd.ShowAd();
+            PlayerPrefs.SetInt(_loseCounter, 0);
+        }
+    }
+
 
     public void OnInitializationComplete()
     {

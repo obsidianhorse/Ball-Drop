@@ -18,14 +18,17 @@ public class Finish : MonoBehaviour
     {
         if (other.gameObject.tag == "Ball")
         {
-            Vibration.Vibrate();
+            //Vibration.Vibrate();
+            //Vibration.VibrateNope();
+
             MoneyManager.Money += _PaymentForWin;
             other.gameObject.SetActive(false);
             SerpentineEffect();
             ShowWinInterface();
             MarkInDBPassedLevel();
+            other.GetComponent<Pause>().Hide();
             CameraEffect.PlayWinAnimation();
-            AdsManager.ShowInterstitialAd(3);
+            AdsManager.ShowInterstitialWinAd();
         }
     }
     private void SerpentineEffect()

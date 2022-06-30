@@ -87,4 +87,3 @@ public class Teleport : MonoBehaviour
     }
 }
 
-//todo: телепорт маЇ зм≥нюватись €кщо з нього буде випригувати м'€ч

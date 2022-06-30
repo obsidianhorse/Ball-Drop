@@ -1,10 +1,13 @@
 using UnityEngine;
-
+using System.Collections;
 public class Death : MonoBehaviour
 {
     [SerializeField] private GameObject _failInterface;
     [SerializeField] private GameObject _popPartialSystem;
 
+
+    public delegate void Notify();
+    public event Notify Dead;
 
     private const int _PaymentForLose = 5;
 
@@ -19,15 +22,17 @@ public class Death : MonoBehaviour
 
     private void Lose()
     {
+        OnDead();
         BallSoundManager.Crush.Play();
         SpawnPartialSystem();
-        Vibration.Vibrate();
         DisableBall();
         AddMoney();
         ShowLoseInterface();
-        AdsManager.ShowInterstitialAd(5);
+        AdsManager.ShowInterstitialLoseAd();
+        Camera.main.gameObject.AddComponent<VibroContainer>();
         Destroy(this);
     }
+    
     private void AddMoney()
     {
         MoneyManager.Money += _PaymentForLose;
@@ -46,5 +51,10 @@ public class Death : MonoBehaviour
     private void SpawnPartialSystem()
     {
         Instantiate(_popPartialSystem, transform.position, Quaternion.identity);
+    }
+
+    protected virtual void OnDead()
+    {
+        Dead?.Invoke();
     }
 }

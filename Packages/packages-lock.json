@@ -25,10 +25,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.device-simulator": {
-      "version": "file:com.unity.device-simulator-master",
+      "version": "3.0.3-preview",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",
